@@ -1,5 +1,5 @@
 # Endpoint Hunt Package
-The endpoint hunt package is used to be a one shot install script for endpoint monitoring tools. Sysmon and the Splunk Universal forwarder are written into the script. The `install.bat` script is prepped for Carbon Black but none of the installation files are included. Feel free to modify and include any other tools you wish (EDR, etc.).
+The endpoint hunt package is used to be an install script for endpoint monitoring tools. Sysmon and the Splunk Universal forwarder are written into the script. The `install.bat` script is prepped for Carbon Black but none of the installation files are included. Feel free to modify and include any other tools you wish (EDR, etc.).
 
 The supplied batch script is the more flexible option for installation of the agents across a customer's enterprise. This package applies to a Windows environment.
 
@@ -50,4 +50,4 @@ Other possible methods of deployment can be achieved using SCCM or configuration
 
 ## Uninstall
 
-Uninstallation of agents are straightforward, nothing should be edited in the scripts unless changes were made to the `install.bat` script. Use the same deployment method and reference the 'uninstall.bat' script.
+Uninstallation of agents are straightforward, nothing should be edited in the scripts unless changes were made to the `install.bat` script. Use the same deployment method and reference the `uninstall.bat` script.
